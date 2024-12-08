@@ -1,55 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<link rel="stylesheet"href="style.css">
-<title>portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udemy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-<div class="container"> 
+    <!--Navbar-->
+    <div class="navbar">
+        <div class="navbar__s1">
+            <h1 class="navbar__s1__title">Udemy</h1>
+        </div>
 
-<div class="section-one">
-<h1 class="section-one__name">Chareeshma sk</h1>
-<p class="section-one__role">Web developer</p>
-<a class="section-one__contact" href="form.html">contact</a>
+        <div class="navbar__s2">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input placeholder="searchbar for anything here. tech, busuness, Art...">
+        </div>
 
-</div> 
+        <div class="navbar__s3">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-bell"></i>
+            <i class="fa-solid fa-user"></i>
+            <p>coureses</p>
+            <p>My learning</p>
+        </div>
 
-<div class="section-two">
-<h2 class=section-two--title>About me</h2>
-<p class="section-two__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nihil voluptas nesciunt esse porro cumque quis repellendus cupiditate, voluptatem reprehenderit amet? Quisquam expedita recusandae quas labore sunt quo neque! Eligendi ullam consequuntur corrupti id libero, debitis, tempore perspiciatis a nesciunt delectus eum veniam amet sit, sapiente accusamus. Deleniti magni omnis asperiores fuga quis esse commodi eius, ea accusantium molestias expedita quaerat consequatur aliquam explicabo odit magnam laborum tempore mollitia? Quibusdam sunt adipisci repellat? Error, omnis excepturi iusto incidunt aspernatur eaque dolor fugiat, voluptate unde tempora distinctio nemo, expedita quidem facere fugit ratione suscipit ea eveniet. Sint dolores aliquam minus perspiciatis. ipsum, dolor sit amet consectetur adipisicing elit. Laudantium saepe accusantium veniam laborum porro recusandae dignissimos praesentium officia unde distinctio, quaerat sed cum inventore natus rerum nisi dolores velit quas!</p>
-</div>
+    </div>
+    <!--categories-->
+    <div class="categories">
+        <p>development</p>
+        <p>Business</p>
+        <p>IT & Software</p>
+        <p>personal Development</p>
+        <p>design</p>
+        <p>marketing</p>
+    </div>
+    <!--sale images-->
+    <div class="sale-image">
+        <img src="./images/sale image.png" alt="sale image">
+    </div>
+    <!--Recommended-->
+    <div class="recommended">
+        <h1 class="recommended__title">Recommended for you</h1>
+        <p>Pick the best fit</p>
+        <div class="recommended__container">
 
-<div class="section-three">
-<h2 class="section-three__title">My interests</h2>
-<ul class="section-three__desc">
-    <li>web development</li>
-    <li>Reading</li>
-    <li>Dancing</li>
-    <li>sports</li>
-</ul>
-</div>
+            <div class="course-card">
+                <img src="./images/c1.jpg">
+                <h3>2024 python learning</h3>
+                <p>col steele</p>
+                <p>4.5⭐⭐⭐⭐</p>
+                <p>1100 <del>1500</del></p>
+            </div>
+            <div class="course-card">
+                <img src="./images/c2.jpg">
+                <h3>2024 Artificial intelligence</h3>
+                <p>col steele</p>
+                <p>3.5⭐⭐⭐</p>
+                <p>890 <del>990</del></p>
+            </div>
+            <div class="course-card">
+                <img src="./images/c3.jpg">
+                <h3>2024 MySQL</h3>
+                <p>col steele</p>
+                <p>4.5⭐⭐⭐⭐</p>
+                <p>550 <del>770</del></p>
+            </div>
+            <div class="course-card">
+                <img src="./images/c4.jpg">
+                <h3>2024 JavaScript</h3>
+                <p>col steele</p>
+                <p>4.5⭐⭐⭐⭐</p>
+                <p>890 <del>990</del></p>
+            </div>
+        </div>
+    </div>
+    <!--Topics-->
+    <div class="topics">
+        <h1 class="topics__title">Topics Recommemded For you</h1>
+        <div class="topics__container">
+            <p>Website</p>
+            <p>JavaScript</p>
+            <p>CSS</p>
+            <p>Mongo DB</p>
+            <p>Azure</p>
+            <p>Docker</p>
+            <p>GitHub</p>
+            <p>React JS</p>
+            <p>MySQL</p>
+        </div>
+        <!--popular section-->
+        <div class="popular">
+            <h1 class="popular__title">Most popular</h1>
+            <p class="popular__subtitle">Pick the best fit</p>
+            <div class="popular__container">
+                <div class="course-card">
+                    <img src="./images/c1.jpg">
+                    <h3>2024 python learning</h3>
+                    <p>col steele</p>
+                    <p>4.5⭐⭐⭐⭐</p>
+                    <p>1100 <del>1500</del></p>
+                </div>
+                <div class="course-card">
+                    <img src="./images/c2.jpg">
+                    <h3>2024 Artificial intelligence</h3>
+                    <p>col steele</p>
+                    <p>3.5⭐⭐⭐</p>
+                    <p>890 <del>990</del></p>
+                </div>
+                <div class="course-card">
+                    <img src="./images/c3.jpg">
+                    <h3>2024 MySQL</h3>
+                    <p>col steele</p>
+                    <p>4.5⭐⭐⭐⭐</p>
+                    <p>550 <del>770</del></p>
+                </div>
+                <div class="course-card">
+                    <img src="./images/c4.jpg">
+                    <h3>2024 JavaScript</h3>
+                    <p>col steele</p>
+                    <p>4.5⭐⭐⭐⭐</p>
+                    <p>890 <del>990</del></p>
+                </div>
+                <div class="course-card">
+                    <img src="./images/c4.jpg">
+                    <h3>2024 JavaScript</h3>
+                    <p>col steele</p>
+                    <p>4.5⭐⭐⭐⭐</p>
+                    <p>890 <del>990</del></p>
 
-<div class="section-four">
-<h1 class="section-four--title">My project</h1>
-<ul class="section-four__desc">
-    <li>
-        <h1>Amazon E-commerce Clone</h1>
-        <p>i complete Amazone E-commerce clone with React & JavaScript</p>
-    </li>
-        <h1>Travel websites</h1>
-        <p>i completed a website within a going ma,y people to take a trip within them</p>
-    </li>
-</ul>
-</div>
+                </div>
+                <div class="course-card">
+                    <img src="./images/c2.jpg">
+                    <h3>2024 Artificial intelligence</h3>
+                    <p>col steele</p>
+                    <p>3.5⭐⭐⭐</p>
+                    <p>890 <del>990</del></p>
+
+                </div>
+                <div class="course-card">
+                    <img src="./images/c3.jpg">
+                    <h3>2024 MySQL</h3>
+                    <p>col steele</p>
+                    <p>4.5⭐⭐⭐⭐</p>
+                    <p>550 <del>770</del></p>
+
+                </div>
+                <div class="course-card">
+                    <img src="./images/c1.jpg">
+                    <h3>2024 python learning</h3>
+                    <p>col steele</p>
+                    <p>4.5⭐⭐⭐⭐</p>
+                    <p>1100 <del>1500</del></p>
+                </div>
+                </div>
+                <!--footer-->
+                <div class="Footer">
+                    <div class="Footer__one">
+                        <div class="Footer__one__s1">
+                            <p>Udemy Business</p>
+                            <p>Teach on Udemy</p>
+                            <p>Get the app</p>
+                            <p>About us</p>
+                            <p>Contact Us</p>
+
+                        </div>
+                        <div class="Footer__one__s2">
+                            <p>careers</p>
+                            <p>Blog</p>
+                            <p>Help and Support</p>
+                            <p>Affiliate</p>
+                            <p>Investors</p>
+                        </div>
+
+                    </div>
+                    <div class="Footer__two">
+                        <h1>Udemy</h1>
+                        <p>&copy; Udemy,Inc</p>
+
+                    </div>
+                </div>
 
 
-<div class="section-five">
-    <p class="section-five__title">social Media:
-<a href="instagram.com">instagram</a>
-<a href="linkedin.com">linkedin</a>
-<p class="section-five__dsec">&copy;chareeshma</p>
-</p>
-</div>
+            </div>
 </body>
-</div>
-</div>
 
-</body>
+</html>
